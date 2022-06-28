@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 85%;
+  margin: 2rem auto;
+}
+.bold {
+  font-weight: 900;
+}
+.normal {
+  font-weight: normal;
+  color: rgb(101, 99, 99);
+}

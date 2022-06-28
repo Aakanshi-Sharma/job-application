@@ -1,0 +1,57 @@
+.row3 {
+  margin: 2rem auto;
+  margin-bottom: 4rem;
+  padding: 0rem 2rem;
+  width: 85%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+.span {
+  margin: 0.25rem;
+  font-size: 1.7rem;
+  padding: 0.25rem;
+}
+.btn {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #1da7d5;
+  border-radius: 4px;
+}
+.btn1 {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #1da7d5;
+  border-radius: 4px;
+}
+.btn:hover,
+.btn:focus {
+  color: #1da7d5;
+  background-color: #fff;
+  border: 3px solid #1da7d5;
+}
+.btn1:hover,
+.btn1:active {
+  color: #1da7d5;
+  background-color: #fff;
+  border: 3px solid #1da7d5;
+}
+@media (max-width: 785px) {
+  .row3 {
+    padding: 0rem;
+  }
+}

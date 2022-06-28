@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image_section {
+  width: 85%;
+  height: 150px;
+  margin: 2rem auto;
+  align-items: center;
+  padding: 1rem;
+  /* border: 2px solid black; */
+  border-radius: 8px;
+  background-image: url("https://www.snowsoftware.com/wp-content/uploads/2020/10/yolanda-sun-rEnH56DV2vQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.form {
+  width: 60%;
+  border-radius: 4px;
+  margin: 1.55rem auto;
+}
+.sub_form {
+  width: 100%;
+  background-color: white;
+  padding: 4px;
+  border-radius: 4px;
+  /* min-width: 305px; */
+  display: flex;
+  flex-flow: row;
+  flex-wrap: row;
+  justify-content: space-between;
+}
+.input {
+  width: 80%;
+  /* min-width: 300px; */
+  padding: 0.75rem;
+  border: none;
+  font-size: 1rem;
+  background-color: #fff;
+}
+.btn {
+  width: 20%;
+
+  padding: 0.75rem;
+  border: none;
+  color: white;
+  background-color: #1da7d5;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  min-width: 100px;
+}
+.button_container {
+  background-color: white;
+}
+@media (max-width: 785px) {
+  .form {
+    width: 90%;
+  }
+}
