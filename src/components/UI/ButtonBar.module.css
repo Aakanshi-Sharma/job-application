@@ -65,3 +65,8 @@
     display: none;
   }
 }
+@media (max-width: 428px) {
+  .row3 {
+    width: 100%;
+  }
+}
