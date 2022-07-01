@@ -38,13 +38,13 @@ const ButtonBar = (props) => {
           <button
             onClick={numberPassingHandler}
             value={number + 1}
-            className={classes.btn}
+            className={classes.btn4}
           >
             {number + 1}
           </button>
         )}
         {rightNumber > number && (
-          <button onClick={numberPassingHandler} className={classes.btn}>
+          <button onClick={numberPassingHandler} className={classes.btn3}>
             {number + 2}
           </button>
         )}

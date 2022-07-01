@@ -12,7 +12,9 @@
   font-size: 1.7rem;
   padding: 0.25rem;
 }
-.btn {
+.btn,
+.btn3,
+.btn4 {
   width: 48px;
   height: 48px;
   text-align: center;
@@ -53,5 +55,13 @@
 @media (max-width: 785px) {
   .row3 {
     padding: 0rem;
+  }
+  .btn3 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .btn4 {
+    display: none;
   }
 }

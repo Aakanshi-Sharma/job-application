@@ -28,3 +28,8 @@ ul {
   text-decoration: none;
   color: black;
 }
+@media (max-width: 785px) {
+  .column2 {
+    width: 100%;
+  }
+}
