@@ -64,6 +64,9 @@
   .btn4 {
     display: none;
   }
+  .row3 {
+    justify-content: center;
+  }
 }
 @media (max-width: 428px) {
   .row3 {
