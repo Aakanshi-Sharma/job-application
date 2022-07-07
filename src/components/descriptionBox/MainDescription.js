@@ -102,7 +102,6 @@ const MainDescription = () => {
                 <a href="*" className={classes.emailLink}>
                   {" "}
                   {urlHandler(jobsObject.url)}
-                  {/* {jobsObject.url} */}
                 </a>
               </div>
             </div>
@@ -131,10 +130,12 @@ const MainDescription = () => {
                 <div className={classes.company_name}>
                   {jobsObject.company_name}
                 </div>
-                <div className={classes.place}>
-                  <BiWorld className={classes.biWorld} />{" "}
-                  {jobsObject.candidate_required_location}
-                </div>
+                {jobsObject.candidate_required_location != "" && (
+                  <div className={classes.place}>
+                    <BiWorld className={classes.biWorld} />{" "}
+                    {jobsObject.candidate_required_location}
+                  </div>
+                )}
               </div>
             </div>
             <div

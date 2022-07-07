@@ -36,9 +36,11 @@ const ListJob = (props) => {
                 {props.job_type}
               </div>
               <div className={classes.last_row}>
-                <div className={classes.location}>
-                  <BiWorld /> {props.candidate_required_location}
-                </div>
+                {props.candidate_required_location != "" && (
+                  <div className={classes.location}>
+                    <BiWorld /> {props.candidate_required_location}
+                  </div>
+                )}
 
                 <div className={classes.date}>
                   <BsClock /> {days(props.publication_date)}

@@ -47,7 +47,11 @@
   border: 3px solid #1da7d5;
 }
 .btn1:hover,
-.btn1:active {
+.btn1:active,
+.btn3:hover,
+.btn3:active,
+.btn4:hover,
+.btn4:active {
   color: #1da7d5;
   background-color: #fff;
   border: 3px solid #1da7d5;
